@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://notes-app-production-e3a2.up.railway.app',
+  baseURL: 'https://notes-app-238s.onrender.com',
   withCredentials: true,
 });
 
