@@ -39,6 +39,7 @@ app.get("/logout", handleLogout);
 app.get("/notes", requireAuth, displayAllNotes);
 app.get("/", (req, res) => {
   console.log(req.cookies);
+  res.send('app working')
 });
 app.get("/notes/:id", requireAuth, findNoteById);
 app.put("/notes/:id", requireAuth, changeNoteById);
