@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3000"],
+    origin: ["https://notes-app-production-e3a2.up.railway.app"],
   })
 );
 
